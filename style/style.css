@@ -1,0 +1,17 @@
+.text {
+  color: aqua;
+}
+.logo img {
+  height: 70px;
+  width: 120px;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+}
