@@ -15,3 +15,18 @@ ul {
   gap: 20px;
   align-items: center;
 }
+.para span {
+  color: #ff5200;
+}
+#partition {
+  /* background: #ff5200;
+  /* padding: 80px 0px; */
+  background: url(../assets/momo.jpg);
+  padding: 80px 0px;
+  z-index: 1111;
+}
+.title-para {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
