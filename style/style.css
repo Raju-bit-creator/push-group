@@ -46,3 +46,14 @@ thead {
 .cat-image {
   width: 100%;
 }
+.fa-user {
+  color: #ff5200;
+}
+@media only screen and (max-width: 768px) {
+  .fa-user {
+    color: #22ff00;
+  }
+  .select-option {
+    width: 100% !important;
+  }
+}
