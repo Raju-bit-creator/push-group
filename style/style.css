@@ -23,7 +23,6 @@ ul {
   /* padding: 80px 0px; */
   background: url(../assets/momo.jpg);
   padding: 80px 0px;
-  z-index: 1111;
 }
 .title-para {
   text-align: center;
@@ -49,6 +48,40 @@ thead {
 .fa-user {
   color: #ff5200;
 }
+.one {
+  position: relative;
+  padding: 40px 0px;
+  z-index: 12;
+}
+
+.one:before {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  left: 0;
+  background: #000;
+}
+
+.one:after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  right: 0;
+  background: #fdbe33;
+  margin-top: -40px;
+}
+.one .rhs h4 {
+  position: absolute;
+  z-index: 1;
+}
+/* .lhs {
+  background: #22ff00;
+}
+.rhs {
+  background: #f3063d;
+} */
 @media only screen and (max-width: 768px) {
   .fa-user {
     color: #22ff00;
