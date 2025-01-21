@@ -49,7 +49,6 @@ thead {
   color: #ff5200;
 }
 .one {
-  position: relative;
   padding: 40px 0px;
   z-index: 12;
 }
@@ -58,7 +57,7 @@ thead {
   content: "";
   position: absolute;
   width: 20%;
-  height: 100%;
+  height: 10%;
   left: 0;
   background: #000;
 }
@@ -67,7 +66,7 @@ thead {
   content: "";
   position: absolute;
   width: 80%;
-  height: 100%;
+  height: 10%;
   right: 0;
   background: #fdbe33;
   margin-top: -40px;
@@ -82,6 +81,11 @@ thead {
 .rhs {
   background: #f3063d;
 } */
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 920px) {
+}
+
 @media only screen and (max-width: 768px) {
   .fa-user {
     color: #22ff00;
