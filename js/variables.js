@@ -19,3 +19,7 @@ const x = 20;
   console.log("this is block last", x);
 }
 console.log("this is bottom", x);
+
+// var => global scope
+// let => block scope
+// const => block scope
