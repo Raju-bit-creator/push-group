@@ -12,7 +12,4 @@ let lastName = "Doe";
 const hari = age >= 18 ? "you can vote" : "you cannot vote";
 console.log(hari);
 
-//assignment
-let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// make greeting desisions according to days using if , else if and else statement

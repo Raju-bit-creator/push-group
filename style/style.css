@@ -94,3 +94,101 @@ thead {
     width: 100% !important;
   }
 }
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menu-icon i {
+  color: black;
+}
+
+.dropdown {
+  position: absolute;
+  right: 20px;
+  top: 5vh;
+  width: 250px;
+  background: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: none;
+  z-index: 1000;
+}
+.dropdown .headerlist {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.dropdown a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown a:hover {
+  background-color: #f5f5f5;
+}
+
+.dropdown button {
+  background-color: #298b73;
+  color: white;
+  height: 45px;
+  width: 40vw;
+  border: none;
+  font-size: small;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover to Show Dropdown */
+.menu-icon:hover + .dropdown,
+.dropdown:hover {
+  display: block;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    flex-wrap: wrap;
+  }
+  .menu-icon {
+    display: flex;
+  }
+
+  .headerlists {
+    display: none; /* Hide the header links on small screens */
+  }
+
+  .dropdown {
+    right: 10px;
+    width: 200px;
+  }
+
+  .logo img {
+    height: 40px;
+    width: 90px;
+  }
+  .logo h6 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .dropdown a {
+    font-size: 16px;
+  }
+}
