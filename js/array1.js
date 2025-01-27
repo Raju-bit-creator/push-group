@@ -1,19 +1,26 @@
-let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let students = [
+  { name: "ram", age: 20, marks: 50 },
+  { name: "shyam", age: 10, marks: 60 },
+  { name: "hari", age: 25, marks: 40 },
+];
+// console.log(students);
+console.log(students[1]);
 
-// let x = "10";
-// let y = "10";
-// console.log(x==y); //true
-// console.log(x===y);// false
+students.map((stu) => {
+  console.log(stu.name, stu.age, stu.marks);
+});
 
-let oddNumber = [];
-let evenNumber = [];
-for (let index = 0; index < number.length; index++) {
-  const num = number[index];
-  if (num % 2 == 0) {
-    evenNumber.push(num);
-  } else {
-    oddNumber.push(num);
-  }
-}
-console.log("this is odd number", oddNumber);
-console.log("this is even number", evenNumber);
+// let cart = [
+//   {
+//     price: 200,
+//     qty: 3,
+//   },
+//   {
+//     price: 300,
+//     qty: 2,
+//   },
+//   {
+//     price: 400,
+//     qty: 4,
+//   },
+// ];
