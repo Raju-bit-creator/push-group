@@ -4,12 +4,12 @@
 // const totalWord = words.length;
 // console.log("total word", totalWord);
 
-let num = [1, 2, 3, 4, 6, 7, 8];
-let newNum = num.push(9);
-console.log(num);
+// let num = [1, 2, 3, 4, 6, 7, 8];
+// let newNum = num.push(9);
+// console.log(num);
 
-let removeNum = num.pop();
-console.log(num);
+// let removeNum = num.pop();
+// console.log(num);
 
 // let num2 = [1, 2, 3, 4];
 // let num3 = [...num2, 5, 6, 7]; //spread operator
@@ -18,5 +18,12 @@ console.log(num);
 
 // json parse // json stringify
 
-let student = { name: "jhone", age: 30 };
-console.log(student.age);
+// let student = { name: "jhone", age: 30 };
+// console.log(student.age);
+const jsonString = '{"name": "jhon", "age":20, "city": "pokhar" }'; //json string
+
+let data = JSON.parse(jsonString);
+let str = JSON.stringify(data);
+console.log(data.age);
+console.log(str);
+console.log(str.name);
