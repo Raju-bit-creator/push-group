@@ -20,10 +20,83 @@
 
 // let student = { name: "jhone", age: 30 };
 // console.log(student.age);
-const jsonString = '{"name": "jhon", "age":20, "city": "pokhar" }'; //json string
+// const jsonString = '{"name": "jhon", "age":20, "city": "pokhar" }'; //json string
 
-let data = JSON.parse(jsonString);
-let str = JSON.stringify(data);
-console.log(data.age);
-console.log(str);
-console.log(str.name);
+// let data = JSON.parse(jsonString);
+// let str = JSON.stringify(data);
+// console.log(data.age);
+// console.log(str);
+// console.log(str.name);
+
+// let users = [
+//   {
+//     name: "Nikhil",
+//     product: [
+//       {
+//         title: "macbook",
+//         price: 1000,
+//       },
+//       {
+//         title: "mobile",
+//         price: 100,
+//       },
+//       {
+//         title: "bag",
+//         price: 1500,
+//       },
+//     ],
+//   },
+//   {
+//     name: "Anjali",
+//     product: [
+//       {
+//         title: "Shoes ",
+//         price: 300,
+//       },
+//       {
+//         title: "book",
+//         price: 1200,
+//       },
+//     ],
+//   },
+//   {
+//     name: "Krishma",
+//     product: [
+//       {
+//         title: "Shoes ",
+//         price: 3000,
+//       },
+//       {
+//         title: "Dress",
+//         price: 1200,
+//       },
+//     ],
+//   },
+// ];
+
+// users.forEach((user) => {
+//   user.product.forEach((product) => {
+//     if (product.title.toLowerCase().trim() == "shoes") {
+//       console.log(
+//         // `${user.name} owned ${product.title} which cost ${product.price}`
+//         `${user.name} has ${product.title}`
+//       );
+//     }
+//   });
+// });
+
+// js for fibonacci series
+let num = 10;
+let fib = [0, 1];
+//  a= 0
+//  b=1
+//  c= a+b
+//  a=b
+//  b=c
+// c=
+for (let i = 2; i <= num; i++) {
+  fib.push(fib[i - 1] + fib[i - 2]);
+}
+console.log(fib);
+
+// 0 1 1 2 3 5
