@@ -11,11 +11,11 @@
 // return user.name
 
 let generateNumber = (Account) => {
-  let str = Account.toString();
+  // let str = Account.toString();
   let lastNumber = str.slice(-2);
   let maskNumber = "*".repeat(str.length - 2);
   return maskNumber + lastNumber;
 };
-const Account = 1234567890;
+const Account = "1234567890";
 const maskValue = generateNumber(Account);
 console.log(maskValue);
