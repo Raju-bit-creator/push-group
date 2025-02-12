@@ -19,3 +19,5 @@ let generateNumber = (Account) => {
 const Account = "1234567890";
 const maskValue = generateNumber(Account);
 console.log(maskValue);
+
+// hello world
