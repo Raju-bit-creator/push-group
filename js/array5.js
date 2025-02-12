@@ -126,11 +126,11 @@
 //   }
 // };
 // registerUser("Shyam");
-// function example(A, K) {
-//   let N = A.length;
-//   if ((N = 0)) return A;
+function example(A, K) {
+  let N = A.length;
+  if ((N = 0)) return A;
 
-//   K = K % N;
-//   return [...A.slice(-K), ...A.slice(0, N - K)];
-// }
-// console.log(example([1, 2, 3, 4, 5], 1));
+  K = K % N;
+  return [...A.slice(-K), ...A.slice(0, N - K)];
+}
+console.log(example([1, 2, 3, 4, 5], 1));

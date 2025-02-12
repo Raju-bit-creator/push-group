@@ -16,8 +16,9 @@ let generateNumber = (Account) => {
   let maskNumber = "*".repeat(str.length - 2);
   return maskNumber + lastNumber;
 };
-const Account = "1234567890";
+const Account = "1234567890e324r23";
+
 const maskValue = generateNumber(Account);
 console.log(maskValue);
 
-// hello world
+// this is the example of git merge

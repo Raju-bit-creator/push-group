@@ -4,7 +4,6 @@ function fetchData(c) {
     c("api successfully fetch");
   }, 3000);
 }
-
 fetchData((m) => {
   console.log(m);
 });
