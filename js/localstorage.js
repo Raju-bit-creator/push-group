@@ -20,3 +20,5 @@ const Account = "1234567890e324r23";
 
 const maskValue = generateNumber(Account);
 console.log(maskValue);
+
+// this is the example of git merge
