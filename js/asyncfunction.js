@@ -41,5 +41,4 @@ const fetchData = async () => {
 fetchData();
 
 // assignment  git install, git hub account,
-
-//hello world
+//hello nepal
