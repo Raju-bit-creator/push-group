@@ -44,3 +44,6 @@ fetchData();
 //hello nepal
 
 //first merge
+//hello world
+
+//second merge
