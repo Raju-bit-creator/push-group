@@ -22,3 +22,4 @@ const maskValue = generateNumber(Account);
 console.log(maskValue);
 
 // this is the example of git merge
+//git merge main hello world
